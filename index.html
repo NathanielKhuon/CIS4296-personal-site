@@ -77,6 +77,9 @@
         .next a {
             color: rgb(33, 37, 41);
         }
+        .aboutMe {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
     </style>
 </head>
 
@@ -84,7 +87,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -99,6 +102,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutMe">About Me</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -107,29 +113,49 @@
             <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
-                University.</h5>
+            <h5 class="display-5 mx-auto faded text-center">
+                I'm an Information Science & Technology Student at Temple
+                University.
+            </h5>
         </div>
         <div class="row my-4">
-            <div class="col my-3"><img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Python" /></div>
-            <div class="col my-3"><img src="images/angular.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Angular" /></div>
-            <div class="col my-3"><img src="images/typescript.jpg" class="lang" data-toggle="tooltip"
-                    data-placement="top" title="TypeScript" /></div>
+            <div class="col my-3">
+                <img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="Python" />
+            </div>
+            <div class="col my-3">
+                <img src="images/angular.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="Angular" />
+            </div>
+            <div class="col my-3">
+                <img src="images/typescript.jpg" class="lang" data-toggle="tooltip"
+                     data-placement="top" title="TypeScript" />
+            </div>
 
-            <div class="col my-3"><img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="C#" /></div>
-            <div class="col my-3"><img src="images/node.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Node.js" /></div>
-            <div class="col my-3"><img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Java" /></div>
+            <div class="col my-3">
+                <img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="C#" />
+            </div>
+            <div class="col my-3">
+                <img src="images/node.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="Node.js" />
+            </div>
+            <div class="col my-3">
+                <img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="Java" />
+            </div>
 
-            <div class="col my-3"><img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="ASP.NET" /></div>           
-                     <div class="col my-3"><img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Microsoft SQL Server" /></div> <div class="col my-3"><img src="images/mongodb.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="MongoDB" /></div>
+            <div class="col my-3">
+                <img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="ASP.NET" />
+            </div>
+            <div class="col my-3">
+                <img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="Microsoft SQL Server" />
+            </div> <div class="col my-3">
+                <img src="images/mongodb.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="MongoDB" />
+            </div>
 
         </div>
         <div class="row my-4">
@@ -142,10 +168,16 @@
             <div class="col">
                 <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
             </div>
+            <div class="col">
+                <a href="#aboutMe"><button type="button" class="btn btn-outline">About Me</button></a>
+            </div>
         </div>
         <div class="row mt-5 next">
-            <a href="#projects" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Projects"></i></a> </div>
+            <a href="#projects" class="col">
+                <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                   title="Projects"></i>
+            </a>
+        </div>
 
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
@@ -159,36 +191,45 @@
             <h5>Inspiro for Esperanza</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
+            <p class="text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
                 in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
                 sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
                 tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
                 purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero. </p>
+                faucibus libero.
+            </p>
         </div>
         <div class="row w-100">
             <h5>Work From Home Pinterest</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
+            <p class="text-justify">
+                Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
                 finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
                 sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta. </p>
+                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta.
+            </p>
         </div>
         <div class="row w-100">
             <h5>Query Dating Site</h5>
         </div>
         <div class="row w-100">
-            <p class="text-justify">Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
+            <p class="text-justify">
+                Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
                 egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
                 tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
                 amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
                 Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at. </p>
+                efficitur at.
+            </p>
         </div>
         <div class="row mt-5 next">
-            <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Courses"></i></a> </div>
+            <a href="#courses" class="col">
+                <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                   title="Courses"></i>
+            </a>
+        </div>
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses">
         <div class="row mx-auto">
@@ -221,46 +262,140 @@
                 <h5>Database Management Systems</h5>
             </div>
         </div>
-        <div class="row mt-5 next">
-            <a href="#contact" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Contact"></i></a> </div>
-    </div>
-    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
-        <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
-        </div>
-        <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
-        </div>
-        <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
-                    data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
-                    data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
-                    data-toggle="tooltip" data-placement="top" title="Github"></i></a>
 
+
+        <div class="row mt-5 next">
+            <a href="#aboutMe" class="col">
+                <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                   title="About Me"></i>
+            </a>
         </div>
-        <div class="row mt-5">
-            <a href="#landing"><button type="button" class="btn btn-outline">Return to Top</button></a>
+    </div>
+
+    <div class="aboutMe"|>
+        <div class="container landing d-flex justify-content-center flex-column align-items-center" id="aboutMe">
+            <div class="row mx-auto">
+                <h4 class="display-4 font-weight-bold mx-auto text-center">About Me</h4>
+            </div>
+            <div class="p-3 mt-5 w-100 bg-primary text-white">FAQs</div>
+            <div class="accordion w-100" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What is your name?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>My name is Nathaniel Khuon.</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What is your major?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Science & Technology.</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What school do you go to?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Temple University</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner  mt-5">
+                    <div class="carousel-item active">
+                        <img src="images/templeu.jpg" class="d-block w-100" alt="Temple University">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/templeowl.jpg" class="d-block w-100" alt="Temple Owl">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <div class="row mt-5 next">
+                <a href="#contact" class="col">
+                    <i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                       title="Contact"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
+            <div class="row mx-auto">
+                <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
+            </div>
+            <div class="row mx-auto">
+                <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
+            </div>
+            <div class="row my-4 contacticon">
+                <a href="mailto:johndoe@gmail.com" class="col mx-3">
+                    <i class="fas fa-envelope-square"
+                       data-toggle="tooltip" data-placement="top" title="Email"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3">
+                    <i class="fab fa-linkedin"
+                       data-toggle="tooltip" data-placement="top" title="LinkedIn"></i>
+                </a>
+                <a href="https://github.com/johndoe" class="col mx-3">
+                    <i class="fab fa-github-square"
+                       data-toggle="tooltip" data-placement="top" title="Github"></i>
+                </a>
+
+            </div>
+            <div class="row mt-5">
+                <a href="#landing"><button type="button" class="btn btn-outline">Return to Top</button></a>
+            </div>
         </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
     <script>
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 
 </html>
